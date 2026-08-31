@@ -1,0 +1,31 @@
+body{
+    background:#665858;
+    color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
+    margin:20px;
+}
+
+h2{
+    color:#66ccff;
+}
+
+label{
+    margin:10px;
+    font-weight:bold;
+}
+
+select,
+input[type="range"]{
+    margin:8px;
+    width:180px;
+}
+
+canvas{
+    width:1000px;
+    height:700px;
+    background:black;
+    border:2px solid #444;
+    display:block;
+    margin:20px auto;
+}
