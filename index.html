@@ -1,39 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>3D Scatter Plot Projection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden-Ratio Treemap Layout Engine</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>3D Scatter Plot Projection</h2>
+    <h2>Corporate Budget Distribution</h2>
+    <p>Squarified Treemap Engine — Aspect-Ratio Optimized for Golden Ratio Bounds (~1:1.605)</p>
 
-<label>Projection:</label>
-<select id="projectionSelect">
-    <option value="orthographic">Orthographic</option>
-    <option value="perspective">Perspective</option>
-</select>
+    <div id="canvas-container">
+        <canvas id="treemapCanvas" width="1000" height="600"></canvas>
+    </div>
 
-<label>Yaw</label>
-<input type="range" id="yaw" min="0" max="360" value="0">
-
-<label>Pitch</label>
-<input type="range" id="pitch" min="0" max="360" value="0">
-
-<label>Roll</label>
-<input type="range" id="roll" min="0" max="360" value="0">
-
-<label>
-    <input type="checkbox" id="autoRotate" checked>
-    Auto Rotate
-</label>
-
-<br><br>
-
-<canvas id="canvas" width="900" height="600"></canvas>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
